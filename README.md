@@ -50,7 +50,7 @@ Application available at: `http://localhost:5173`
 
 ### Build image
 ```bash
-docker build -t pokemon-frontend --build-arg VITE_API_URL=https://pokemon-api.duvanbonilladev.com .
+docker build -t pokemon-frontend --build-arg VITE_API_URL=http://pokemon-alb-1066697966.us-east-2.elb.amazonaws.com .
 ```
 
 ### Run container
